@@ -1,3 +1,10 @@
-package com.example.demo.repository;
+package com.example.PracticeProject.repository;
 
-public interface Sturepository extends 
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.PracticeProject.entity.Stuentity;
+
+public interface Sturepository extends JpaRepository<Stuentity, Long> {
+    
+    
+}
