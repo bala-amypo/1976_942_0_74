@@ -6,5 +6,6 @@ import com.example.demo.service.StudentService;
 
 @Service
 public class StudentServiceImplement implements StudentService{
-    
+    @Autowired
+    StudentRepository studentRepository
 }
