@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.service.StudentService;
 import com.example.demo.repository.StudentRepository;
-import 
+import com.example.demo.entity.Stuentity;
 
 @Service
 public class StudentServiceImplement implements StudentService{
